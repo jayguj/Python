@@ -1,0 +1,35 @@
+<h1>
+  Sign in to ChatBot
+</h1>
+
+<form [formGroup]="messageForm" (ngSubmit)="onSubmit()">
+
+    <h5 *ngIf="success">Signed in successfully!</h5>
+
+    <label>
+      Username:
+      <input type="text" formControlName="username" [(ngModel)]="signinObject.userName">
+      <div *ngIf="submitted && messageForm.controls.username.errors" class="error">
+        <div *ngIf="messageForm.controls.username.errors.required">Your username is required, bro.</div>
+      </div>
+    </label>
+
+    <label>
+      Password:
+      <input type="password" formControlName="password" [(ngModel)]="signinObject.password">
+      <div *ngIf="submitted && messageForm.controls.password.errors" class="error">
+        <div *ngIf="messageForm.controls.password.errors.required">Password is required</div>
+      </div>
+    </label>
+
+    <input type="submit" value="sign in" class="cta">
+
+  </form>
+
+  <div *ngIf="submitted" class="results">
+    <strong>Username:</strong>
+    <span>{{ messageForm.controls.username.value }}</span>
+
+    <strong>Password:</strong>
+    <span>{{ messageForm.controls.password.value }}</span>
+  </div>
