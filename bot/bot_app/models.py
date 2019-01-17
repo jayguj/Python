@@ -8,6 +8,7 @@ class UserDetails(models.Model):
     email=models.EmailField()
     password=models.CharField(max_length=15)
     #pythonn
+	#python 2
 #
 class Requests(models.Model):
     user_id=models.ForeignKey(UserDetails,on_delete=False)
