@@ -1,0 +1,609 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "goodbye",
+        "text": "bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "goodbye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "good bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "byeeeee"
+      },
+      {
+        "intent": "goodbye",
+        "text": "bye bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "talk to you later"
+      },
+      {
+        "intent": "goodbye",
+        "text": "ttyl"
+      },
+      {
+        "intent": "goodbye",
+        "text": "byeee!!!!"
+      },
+      {
+        "intent": "goodbye",
+        "text": "byee"
+      },
+      {
+        "intent": "goodbye",
+        "text": "bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "byeee bro"
+      },
+      {
+        "intent": "goodbye",
+        "text": "bbbye"
+      },
+      {
+        "intent": "greet",
+        "text": "hey"
+      },
+      {
+        "intent": "greet",
+        "text": "howdy"
+      },
+      {
+        "intent": "greet",
+        "text": "hey there"
+      },
+      {
+        "intent": "greet",
+        "text": "hello"
+      },
+      {
+        "intent": "greet",
+        "text": "hi"
+      },
+      {
+        "intent": "greet",
+        "text": "heyaa"
+      },
+      {
+        "intent": "greet",
+        "text": "hiii"
+      },
+      {
+        "intent": "greet",
+        "text": "hello"
+      },
+      {
+        "intent": "greet",
+        "text": "hii"
+      },
+      {
+        "intent": "greet",
+        "text": "hi"
+      },
+      {
+        "intent": "greet",
+        "text": "heyaaaaa"
+      },
+      {
+        "intent": "greet",
+        "text": "help"
+      },
+      {
+        "intent": "greet",
+        "text": "help me"
+      },
+      {
+        "intent": "greet",
+        "text": "i want some help"
+      },
+      {
+        "intent": "greet",
+        "text": "will you help me"
+      },
+      {
+        "intent": "greet",
+        "text": "i want some more help"
+      },
+      {
+        "intent": "greet",
+        "text": "hii"
+      },
+      {
+        "intent": "greet",
+        "text": "hey bro"
+      },
+      {
+        "intent": "greet",
+        "text": "i want some help"
+      },
+      {
+        "intent": "inform",
+        "text": "next holiday"
+      },
+      {
+        "intent": "inform",
+        "text": "next holiday list"
+      },
+      {
+        "intent": "inform",
+        "text": "holiday"
+      },
+      {
+        "intent": "inform",
+        "text": "give me the holidays"
+      },
+      {
+        "intent": "inform",
+        "text": "holiday list"
+      },
+      {
+        "intent": "inform",
+        "text": "please tell me the is there any holiday"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 16,
+            "end": 24,
+            "value": "weekends",
+            "entity": "day"
+          }
+        ],
+        "text": "next holiday in weekends"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 5,
+            "end": 12,
+            "value": "weekday",
+            "entity": "day"
+          }
+        ],
+        "text": "next weekday"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 5,
+            "end": 13,
+            "value": "weekdays",
+            "entity": "day"
+          }
+        ],
+        "text": "next weekdays"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 5,
+            "end": 12,
+            "value": "weekend",
+            "entity": "day"
+          }
+        ],
+        "text": "next weekend"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 5,
+            "end": 13,
+            "value": "weekends",
+            "entity": "day"
+          }
+        ],
+        "text": "next weekends"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 12,
+            "end": 20,
+            "value": "weekends",
+            "entity": "day"
+          }
+        ],
+        "text": "holidays in weekends"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 5,
+            "end": 12,
+            "value": "weekend",
+            "entity": "day"
+          }
+        ],
+        "text": "next weekend"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 17,
+            "end": 25,
+            "value": "weekends",
+            "entity": "day"
+          }
+        ],
+        "text": "next holidays in weekends"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 16,
+            "end": 24,
+            "value": "weekdays",
+            "entity": "day"
+          }
+        ],
+        "text": "next holiday in weekdays"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 17,
+            "end": 25,
+            "value": "weekdays",
+            "entity": "day"
+          }
+        ],
+        "text": "next holidays in weekdays"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "weekends",
+            "entity": "day"
+          }
+        ],
+        "text": "weekends only"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "weekdays",
+            "entity": "day"
+          }
+        ],
+        "text": "weekdays only"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "weekday",
+            "entity": "day"
+          }
+        ],
+        "text": "weekday only"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "weekend",
+            "entity": "day"
+          }
+        ],
+        "text": "weekend only"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 3,
+            "end": 11,
+            "value": "weekends",
+            "entity": "day"
+          }
+        ],
+        "text": "in weekends"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 3,
+            "end": 11,
+            "value": "weekdays",
+            "entity": "day"
+          }
+        ],
+        "text": "in weekdays"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 3,
+            "end": 10,
+            "value": "weekend",
+            "entity": "day"
+          }
+        ],
+        "text": "in weekend"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 3,
+            "end": 10,
+            "value": "weekday",
+            "entity": "day"
+          }
+        ],
+        "text": "in weekday"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "weekday",
+            "entity": "day"
+          }
+        ],
+        "text": "weekday"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "weekend",
+            "entity": "day"
+          }
+        ],
+        "text": "weekend"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "weekdays",
+            "entity": "day"
+          }
+        ],
+        "text": "weekdays"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "weekends",
+            "entity": "day"
+          }
+        ],
+        "text": "weekends"
+      },
+      {
+        "intent": "inform",
+        "text": "hi please give me the holiday list"
+      },
+      {
+        "intent": "inform",
+        "text": "hello give me the holidays"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "weekday",
+            "entity": "day"
+          }
+        ],
+        "text": "weekday"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 28,
+            "end": 35,
+            "value": "weekend",
+            "entity": "day"
+          }
+        ],
+        "text": "now give me holiday list of weekend"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 6,
+            "end": 13,
+            "value": "weekday",
+            "entity": "day"
+          }
+        ],
+        "text": "mmmmm weekday holiday"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "weekday",
+            "entity": "day"
+          }
+        ],
+        "text": "weekday"
+      },
+      {
+        "intent": "inform",
+        "text": "give me the next holiday"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "weekdays",
+            "entity": "day"
+          }
+        ],
+        "text": "weekdays"
+      },
+      {
+        "intent": "inform",
+        "text": "give me holiday list"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "weekends",
+            "entity": "day"
+          }
+        ],
+        "text": "weekends"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "weekdays",
+            "entity": "day"
+          }
+        ],
+        "text": "weekdays"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 12,
+            "end": 20,
+            "value": "weekends",
+            "entity": "day"
+          }
+        ],
+        "text": "holidays in weekends"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 12,
+            "end": 20,
+            "value": "weekdays",
+            "entity": "day"
+          }
+        ],
+        "text": "holidays in weekdays"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "weekday",
+            "entity": "day"
+          }
+        ],
+        "text": "weekday"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "weekend",
+            "entity": "day"
+          }
+        ],
+        "text": "weekend"
+      },
+      {
+        "intent": "inform",
+        "text": "i dont want holiday list"
+      },
+      {
+        "intent": "inform",
+        "text": "give me holiday list"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "weekday",
+            "entity": "day"
+          }
+        ],
+        "text": "weekday"
+      },
+      {
+        "intent": "inform",
+        "text": "I wonder if you could give me the holidays"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "weekends",
+            "entity": "day"
+          }
+        ],
+        "text": "weekends"
+      }
+    ],
+    "regex_features": [],
+    "lookup_tables": [],
+    "entity_synonyms": []
+  }
+}

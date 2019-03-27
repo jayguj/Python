@@ -1,0 +1,2 @@
+model_checkpoint_path: "C:\\Users\\Jay\\Desktop\\Holiday_Bot\\./models/nlu\\default\\Holiday_HR\\intent_classifier_tensorflow_embedding.ckpt"
+all_model_checkpoint_paths: "C:\\Users\\Jay\\Desktop\\Holiday_Bot\\./models/nlu\\default\\Holiday_HR\\intent_classifier_tensorflow_embedding.ckpt"

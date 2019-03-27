@@ -1,0 +1,29 @@
+%YAML 1.1
+---
+actions:
+- utter_ask_for_holiday
+- utter_goodbye
+- action_holiday
+- utter_greet
+entities:
+- day
+intents:
+- greet
+- inform
+- goodbye
+slots:
+  day:
+    type: categorical
+    values:
+    - weekdays
+    - weekends
+    - weekend
+    - weekday
+templates:
+  utter_ask_for_holiday:
+  - text: In Weekends or Weekdays?
+  utter_goodbye:
+  - text: Talk to you later.
+  - text: Bye bye :(
+  utter_greet:
+  - text: Hello! How can I help?
