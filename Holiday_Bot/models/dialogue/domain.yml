@@ -1,0 +1,37 @@
+%YAML 1.1
+---
+actions:
+- utter_ask_for_holiday
+- utter_goodbye
+- action_holiday
+- utter_greet
+config:
+  store_entities_as_slots: true
+entities:
+- day
+forms: []
+intents:
+- greet:
+    use_entities: true
+- inform:
+    use_entities: true
+- goodbye:
+    use_entities: true
+slots:
+  day:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.CategoricalSlot
+    values:
+    - weekdays
+    - weekends
+    - weekend
+    - weekday
+templates:
+  utter_ask_for_holiday:
+  - text: In Weekends or Weekdays?
+  utter_goodbye:
+  - text: Talk to you later.
+  - text: Bye bye :(
+  utter_greet:
+  - text: Hello! How can I help?

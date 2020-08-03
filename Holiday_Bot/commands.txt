@@ -1,0 +1,8 @@
+1)For setting up actions on a port
+command: python -m rasa_core_sdk.endpoint --actions flask_actions
+
+2)Rest link command
+python -m rasa_core.run -d models/dialogue -u models/nlu/default/Holiday_HR --port 50025 --credentials credentials.yml --endpoints endpoint.yml --debug
+
+3)Rest link to get JSON
+http://localhost:50025/webhooks/rest/webhook POST
